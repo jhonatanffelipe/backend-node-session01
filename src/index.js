@@ -1,9 +1,9 @@
 const express = require('express');
 const { uuid, isUuid } = require('uuidv4');
-
+const cors = require('cors');
 
 const app = express();
-
+app.use(cors());
 app.use(express.json());
 
 function loadRequest(request, response, next) {
@@ -42,7 +42,7 @@ app.post('/projects', (request, response) => {
     const { title, owner } = request.body;
     project = { id: uuid(), title, owner };
     projects.push(project);
-    return response.json({ msg: project });
+    return response.json(project);
 });
 
 
