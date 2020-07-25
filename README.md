@@ -4,7 +4,7 @@
 Conteúdo desenvolvido ao longo do Nível 01 | Módulo 01 Back-end com Node.js | GoStack da Rocketseat.
 
 O projeto se trata de uma API REST. Essa API foi desenvolvida sem conceitos de banco de dados, para alimentar e consumir os dados dessa API é necessário utilizar uma ferramenta 
-capaz de enviar e rebeber os dados das rotas, como por exemplo o Insomnia.
+capaz de enviar e receber os dados das rotas, como por exemplo o Insomnia.
 
 ### Conceitos abordados nesse repositório
 
