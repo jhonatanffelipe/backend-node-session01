@@ -8,8 +8,7 @@ app.use(express.json());
 
 function loadRequest(request, response, next) {
   const { method, url } = request;
-  const logLabel = `[${method.toUpperCase()}] ${url}`;
-  console.log(logLabel);
+  // const logLabel = `[${method.toUpperCase()}] ${url}`;
   return next();
 }
 
